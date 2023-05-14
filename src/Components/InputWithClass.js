@@ -38,9 +38,7 @@ export default class Input extends React.Component {
           </Row>
         </div>
 
-        <h2>
-          Hello, {this.state.name} {this.state.lastName}
-        </h2>
+        <h2>Hello, {this.state.name + " " + this.state.lastName}</h2>
       </>
     );
   }
